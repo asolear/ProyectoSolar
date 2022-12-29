@@ -12,6 +12,7 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - content.tabs.link
+    - navigation.top
 markdown_extensions:
   - meta
   - tables
