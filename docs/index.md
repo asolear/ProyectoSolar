@@ -1,21 +1,11 @@
 # Proyecto Solar
 
-
-
 ---
 
 [ 📐 Desde DXF](dxf){ .md-button }
 [📍  Desde COORDENADAS](coordenadas){ .md-button }
 
-
-
-
-
-## [](http://localhost:8501/#excel-add-in-mytoolbelt)
-
 ## **Excel Add-In: MyToolBelt**
-
-### [](http://localhost:8501/#ready-to-become-an-office-superhero)
 
 ### **Ready To Become An Office Superhero? 🚀**
 
@@ -32,17 +22,9 @@ analysis with a unique set of tools you won’t find anywhere else:
 
 **This is your new superpower; why go to work without it?**
 
-[👉 Get the add-in](https://buy.stripe.com/6oEdRj2Jp6I29qw3cd)
+[👉  Desde DXF](dxf){ .md-button }
 
-![0](http://localhost:8501/media/ddb5c82741d4d7d678f0254749a8def75b28d881ca5add729671dc25.png)
-
----
-
-### [](http://localhost:8501/#features)
-
-### **🚀 Features**
-
-![0](http://localhost:8501/media/bf9ae9812b611bba5fdfbf992cabef1a291a5b5698bf6d17eb3542af.jpeg)
+### **🚀 Caracteristicas**
 
 **Run Python Files From Excel**
 
@@ -52,8 +34,6 @@ After
 interpreter paths. This is helpful when you need to execute your Python
 code from different virtual environments.
 
-![0](http://localhost:8501/media/a4298d3a7b75b36c8a5ce12187873912c622192e0ce8d17e2a83a83e.jpeg)
-
 **Create Pandas Dataframes**
 
 Generate
@@ -62,8 +42,6 @@ to transform, and the add-in creates the Python code to read in the
 Excel data as a pandas dataframe.Instead of messing around with all of
 the available options in the pandas ‘read_excel’ method, the add-in does
  it for you.
-
-![0](http://localhost:8501/media/fd63e0646c571960e08b9605c0b39cd592f20458e3c3807a1af569b0.jpeg)
 
 **Create Jupyter Notebooks**
 
@@ -77,17 +55,16 @@ selection. This feature is a real time saver!
 
 ---
 
-### [](http://localhost:8501/#demo)
-
 ### **📺 Demo**
 
 <iframe title="https://www.youtube.com/embed/PmJ9rkKGqrI" src="https://www.youtube.com/embed/PmJ9rkKGqrI" allow="autoplay; encrypted-media" allowfullscreen="" width="704" height="528" frameborder="0"></iframe>
 
 ---
 
-### [](http://localhost:8501/#faq)
-
 ### **🙋‍♀️ FAQ**
+
+??? question "hjkgkjhgjg jgjgjh "
+    khkjh
 
 * Question 1
 * 
