@@ -1,0 +1,67 @@
+site_name:  Proyecto Solar
+site_url: https://asolear.es/PVDesign
+theme:
+  palette:
+    primary: red
+  name: material
+  language: es
+  # favicon: assets/favicon.ico
+  # logo: assets/logo.svg
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - content.tabs.link
+plugins:
+  # - pdf-export # *** ERROR: Failed to load image at 'http://yoursite.com/the.pdf':
+  # - pdf-export:
+  #     verbose: true
+  # - mknotebooks
+  # - mkdocs-video
+  - search
+  # - macros:
+  #     include_dir: snippets  
+  # - blogging:
+  #     dirs: # The directories to be included
+  #       - blog
+  # - print-site
+      #  icono "≡"
+# https://analytics.google.com/analytics/web/?authuser=2#/p288143966/realtime/overview?params=_u..nav%3Dmaui
+extra:
+  analytics:
+    provider: google
+    property: G-BY8HY373BD
+  fig:
+    url: https://flaskimg-yzohicfcma-ew.a.run.app/
+    # url: http://192.168.1.113:8080/
+
+
+
+markdown_extensions:
+  - meta
+  - tables
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+        alternate_style: true 
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.pathconverter:
+      base_path: 'https://asolear.es/ayuda/artifacts/' # default: ''
+      relative_path: '' # default ''
+      absolute: false # default: false
+      tags: 'a script img link object embed'
+
+
+
+
+
+copyright: 'Copyright 2021 Asolear'
