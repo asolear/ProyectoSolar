@@ -1,11 +1,9 @@
 # Proyecto Solar
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
----
+![1672329020891](image/index/1672329020891.png)
 
-[📐DXF](dxf){ .md-button }
-[📍COORDENADAS](coordenadas){ .md-button }
+[📐DXF](Diseno/dxf){ .md-button }
+[📍COORDENADAS](Diseno/coordenadas){ .md-button }
 
 ## **Excel Add-In: MyToolBelt**
 
@@ -80,3 +78,6 @@ selection. This feature is a real time saver!
     khkjh
 
 ---
+
+  `<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">`
