@@ -1,8 +1,7 @@
-site_name:  Proyecto Solar
+site_name: Proyecto Solar
 site_url: https://asolear.es/ProyectoSolar
 
 theme:
-  logo: assets/logo.png
   palette:
     primary: red
   name: material
@@ -13,38 +12,11 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - content.tabs.link
-plugins:
-  # - pdf-export # *** ERROR: Failed to load image at 'http://yoursite.com/the.pdf':
-  # - pdf-export:
-  #     verbose: true
-  # - mknotebooks
-  # - mkdocs-video
-  - search
-  # - macros:
-  #     include_dir: snippets  
-  # - blogging:
-  #     dirs: # The directories to be included
-  #       - blog
-  # - print-site
-      #  icono "≡"
-# https://analytics.google.com/analytics/web/?authuser=2#/p288143966/realtime/overview?params=_u..nav%3Dmaui
-extra:
-  analytics:
-    provider: google
-    property: G-BY8HY373BD
-  fig:
-    url: https://flaskimg-yzohicfcma-ew.a.run.app/
-    # url: http://192.168.1.113:8080/
-
-
-
 markdown_extensions:
   - meta
+  - tables
   - attr_list
+  - md_in_html
   - admonition
 
-
-
-
-
-copyright: 'Copyright 2021 Asolear'
+copyright: "Copyright 2021 Asolear"
