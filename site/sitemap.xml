@@ -6,17 +6,27 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://asolear.es/PVDesign/coordenadas/</loc>
+         <loc>https://asolear.es/PVDesign/Diseno/coordenadas/</loc>
          <lastmod>2022-12-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://asolear.es/PVDesign/dxf/</loc>
+         <loc>https://asolear.es/PVDesign/Diseno/dxf/</loc>
          <lastmod>2022-12-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://asolear.es/PVDesign/memoria/</loc>
+         <loc>https://asolear.es/PVDesign/Memoria/MemoriaDescriptiva/</loc>
+         <lastmod>2022-12-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://asolear.es/PVDesign/Memoria/Anejos%20a%20la%20Memoria/Anejo%20N%C2%BA%201.-%20Ficha%20T%C3%A9cnica%20del%20proyecto/</loc>
+         <lastmod>2022-12-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://asolear.es/PVDesign/Memoria/Anejos%20a%20la%20Memoria/Anejo%20N%C2%BA%202.-%20Memoria%20c%C3%A1lculos%20el%C3%A9ctricos/</loc>
          <lastmod>2022-12-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
