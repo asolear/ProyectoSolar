@@ -4,8 +4,8 @@
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 ---
 
-[ 📐 Desde DXF](dxf){ .md-button }
-[📍  Desde COORDENADAS](coordenadas){ .md-button }
+[📐DXF](dxf){ .md-button }
+[📍COORDENADAS](coordenadas){ .md-button }
 
 ## **Excel Add-In: MyToolBelt**
 
