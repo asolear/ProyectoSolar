@@ -5,24 +5,24 @@
 [📐DXF](Diseno/dxf){ .md-button }
 [📍COORDENADAS](Diseno/coordenadas){ .md-button }
 
-## **Excel Add-In: MyToolBelt**
+## **Planos en DXF y listados XLS**
 
-### **Ready To Become An Office Superhero? 🚀**
+### **Preparado para recibir superpoderes ? 🚀**
 
-MyToolBelt
- saves every smart office worker time and effort when it comes to
-analysis with a unique set of tools you won’t find anywhere else:
+<span style="color:red">*Cambia en tu cronograma los dias por segundos*</span>
 
-* Generate flawless Python code based on your cell selection
-* Call Python scripts from Excel without having to lift a finger
-* Create Jupyter Notebooks from Excel
-* Add tickmarks to cells and highlight key areas
-* Create an informative table of contents with ease
-* … and many more powerful features
+Con ProyectoSolar, en  segundos generas los planos, listados y toda la documentacion para tramitar la licencia de obras y legalizacion de tu proyecto FV, que tardarias  dias en hacer:
+
+* Modelado de sombras en la cubierta de edificios
+* Genera el plano con la dictribucion de placas
+* los esquemas electricos
+* listados excel de paneles e inversores
+* Plano de las perdidas por sombras
+* … y muchas mas caracteristicas
 
 **This is your new superpower; why go to work without it?**
 
-[👉  Desde DXF](dxf){ .md-button }
+[👉  Desde DXF](Diseno/dxf){ .md-button }
 
 ### **🚀 Caracteristicas**
 
