@@ -11,9 +11,10 @@
 
 Con ProyectoSolar, en  segundos generas  planos, listados, documentacion para tramitar la licencia de obras y legalizacion de tu proyecto FV, que tardarias  dias en hacer:
 
-* Modelado de sombras en la cubierta de edificios
-* Genera el plano con la distribucion de placas
-* los esquemas electricos
+* Modelado de sombras en la cubierta de edificios.
+* Calculo de las perdidas por sombras directamente a partir del dxf.
+* Genera el plano con la distribucion optima de placas mediante tecnicas de IA.
+* Los esquemas electricos para cada distribucion y tipo de inversor.
 * listados excel de paneles e inversores
 * Plano de las perdidas por sombras
 * … y muchas mas caracteristicas
