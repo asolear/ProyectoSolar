@@ -1,9 +1,16 @@
+
+
 # Proyecto Solar
 
 ![1672329020891](image/index/1672329020891.png)
 
 [📐DXF](Diseno/dxf){ .md-button }
 [📍COORDENADAS](Diseno/coordenadas){ .md-button }
+
+
+
+
+
 
 ## **Planos en DXF y listados XLS**
 

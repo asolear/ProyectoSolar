@@ -20,5 +20,12 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - admonition
-  - pymdownx.details
+  - pymdownx.pathconverter:
+      base_path: '' # default: ''
+      relative_path: '' # default ''
+      absolute: false # default: false
+      tags: 'a script img link object embed'
+
 copyright: "Copyright 2021 Asolear"
+
+# Strategy: Use an absolute path

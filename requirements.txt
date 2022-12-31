@@ -12,3 +12,4 @@ mkdocs-macros-plugin
 mkdocs-material-extensions
 pymdown-extensions 
 # mkdocs-blogging-plugin
+Jinja2
