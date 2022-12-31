@@ -20,5 +20,5 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - admonition
-
+  - pymdownx.details
 copyright: "Copyright 2021 Asolear"

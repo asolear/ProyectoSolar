@@ -57,7 +57,7 @@ selection. This feature is a real time saver!
 
 ### **📺 Demo**
 
-<iframe title="https://www.youtube.com/embed/PmJ9rkKGqrI" src="https://www.youtube.com/embed/PmJ9rkKGqrI" allow="autoplay; encrypted-media" allowfullscreen="" width="704" height="528" frameborder="0"></iframe>
+<iframe src="https://www.youtube.com/embed/PmJ9rkKGqrI" allow="autoplay; encrypted-media" allowfullscreen="" width="704" height="528" frameborder="0"></iframe>
 
 ---
 
