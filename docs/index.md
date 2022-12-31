@@ -1,21 +1,13 @@
-
-
 # Proyecto Solar
 
-![1672329020891](image/index/1672329020891.png)
+![1672329020891](image/index/1672329020891.png)![1672508992191](image/index/1672508992191.png)
 
 [📐DXF](Diseno/dxf){ .md-button }
 [📍COORDENADAS](Diseno/coordenadas){ .md-button }
 
-
-
-
-
-
 ## **Planos en DXF y listados XLS**
 
 ### 🚀 **Preparado para recibir superpoderes ?  Cambia en tu cronograma los dias por segundos **
-
 
 Con ProyectoSolar, en  segundos generas  planos, listados, documentacion para tramitar la licencia de obras y legalizacion de tu proyecto FV, que tardarias  dias en hacer:
 
@@ -84,4 +76,3 @@ selection. This feature is a real time saver!
     khkjh
 
 ---
-
