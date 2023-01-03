@@ -1,6 +1,6 @@
 <style>
 body {
-  background-image: url('image/solar-cells-ga71d6fb6c_1920.jpg');
+  background-image: url('image/solar-g9df230753_1920.jpg');
 }
 </style>
 # 
