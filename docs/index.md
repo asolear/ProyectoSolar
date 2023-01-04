@@ -1,8 +1,4 @@
-<style>
-body {
-  background-image: url('image/solar-panels-g590cc61f9_1920.jpg');
-}
-</style>
+<style> body { background-image: url('image/Peek 2023-01-04 21-17.gif'); background-repeat: no-repeat; background-attachment: fixed; /* background-size: cover; */ background-size: 100% 100%; } </style>
 
 #
 
@@ -20,12 +16,11 @@ body {
 
         ![1672329020891](image/index/1672329020891.png)
 
-??? Abstract "**🚀 Documentacion en  (pdf, Excel y Autocad)**"
-
+??? Abstract "**🚀 Documentacion en (pdf, Excel y Autocad)**"
 
     ??? question "Genera el plano con la distribucion optima de placas mediante tecnicas de IA."
 
-        * o tambien con solo las 
+        * o tambien con solo las
 
         ![1672329020891](image/index/1672329020891.png)
 
