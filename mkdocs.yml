@@ -6,7 +6,7 @@ theme:
     primary: red
   name: material
   language: es
-  # favicon: assets/favicon.ico
+  favicon: assets/logo.svg
   logo: assets/logo.svg
   features:
     - navigation.tabs
