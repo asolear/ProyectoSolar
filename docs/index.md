@@ -42,7 +42,15 @@ tags on separate lines and adding new lines between the tags and the content.
 
 [ 🙋‍♀️ FAQ](#){ .md-button }
 
-<style> body { background-image: url('image/Peek 2023-01-05 12-22.gif'); background-repeat: no-repeat; background-attachment: fixed; /* background-size: cover; */ background-size: 100% 100%; } 
+<style> 
+
+body { 
+    background-image: url('image/Peek 2023-01-05 12-22.gif'); 
+    /* background-image: url('image/Peek 2023-01-05 19-19.gif');  */
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-size: 100% 100%; 
+    } 
 
 .md-footer__inner:not([hidden]) {
     display: none
