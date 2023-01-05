@@ -21,7 +21,11 @@ markdown_extensions:
   - md_in_html
   - admonition
   - pymdownx.details
-
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
 copyright: "Copyright 2021 Asolear"
 
 # Strategy: Use an absolute path
