@@ -28,7 +28,6 @@ tags on separate lines and adding new lines between the tags and the content.
 # Plan, design, and optimize the PV plant engineering process. End-to-end. Maximize profitability.
 tags on separate lines and adding new lines between the tags and the content.
 
-# [📝Request a Demo](#){ .md-button   }
 
 ==}
 
@@ -39,13 +38,8 @@ tags on separate lines and adding new lines between the tags and the content.
 # Plan, design, and optimize the PV plant engineering process. End-to-end. Maximize profitability.
 tags on separate lines and adding new lines between the tags and the content.
 
-# [ :fontawesome-solar-panel: Request a Demo](#){ .md-button   }
 
 ==}
-
-
-
-
 
 [📺 Demo____](#){ .md-button }
 
