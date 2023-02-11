@@ -45,7 +45,7 @@ tags on separate lines and adding new lines between the tags and the content.
 <style> 
 
 body { 
-    background-image: url('image/Peek 2023-01-05 12-22.gif'); 
+    background-image: url('image/Peek 2023-01-05 19-19.gif'); 
     /* background-image: url('image/Peek 2023-01-05 19-19.gif');  */
     background-repeat: no-repeat; 
     background-attachment: fixed; 
