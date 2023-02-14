@@ -1,55 +1,36 @@
-site_name: 🏡🔌🔆 Proyecto Solar
-site_url: https://asolear.es/ProyectoSolar
-
+# 
+site_name: 01_▫️📚_Proyecto.solar
 theme:
-  palette:
-    primary: red
   name: material
-  language: es
-  favicon: assets/logo.svg
-  logo: assets/logo.svg
+  palette:
+    primary: white
   features:
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - content.tabs.link
-    - navigation.top
-    - navigation.expand
-    - navigation.footer
     - toc.integrate
+    - content.code.annotate
+plugins:
+  - mkdocstrings
+  - search
 
 markdown_extensions:
-  - meta
-  - tables
-  - attr_list
-  - md_in_html
-  - admonition
-  - pymdownx.details
-  - pymdownx.critic
-  - pymdownx.caret
-  - pymdownx.keys
-  - pymdownx.mark
-  - pymdownx.tilde
-  - footnotes
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  
+nav:
 
-extra:
-  social:
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/squidfunk
-    # - icon: fontawesome/brands/facebook
-    #   link: https://twitter.com/squidfunk
-    # - icon: fontawesome/brands/github
-    #   link: https://twitter.com/squidfunk
-    # - icon: fontawesome/brands/slack
-    #   link: https://twitter.com/squidfunk
-    # - icon: fontawesome/brands/linkedin
-    #   link: https://twitter.com/squidfunk
-    # - icon: fontawesome/brands/product-hunt
-    #   link: https://twitter.com/squidfunk
-    - icon: fontawesome/brands/telegram
-      link: https://web.telegram.org/z/#-1851009774
-# copyright: "Copyright 2023 Proyecto Solar"
-
-# 🗺💡
+    - ⬜⬜⬜Indice.pdf: Expediente/002000000⬜⬜⬜⬜Indice.md 
+    - 🧑⬜⬜ Oferta.pdf: Expediente/110100000🟥🧑⬜⬜ Oferta.md 
+    - 🧑⬜⬜ Contrato Instalacion.pdf: Expediente/120100000⬜🧑⬜⬜ Contrato Instalacion.md 
+    - 🏦⬜⬜ Representación ante la GMU.pdf: Expediente/220290672⬜🏦⬜⬜ Representación ante la GMU.md 
+    - 🏦🔧⬜ Declaración Responsable de Obras.pdf: Expediente/221290672⬜🏦🔧⬜ Declaración Responsable de Obras.md 
+    - 🏦🛠⬜ Certificado técnico de colegiación y habilitación.pdf: Expediente/222290672⬜🏦🛠⬜ Certificado técnico de colegiación y habilitación.md 
+    - 🏦🔨⬜ Formulario normalizado Licencias de Obras.pdf: Expediente/225290672⬜🏦🔨⬜ Formulario normalizado Licencias de Obras.md 
+    - 🏦🔨⬜ Panel o cartel informativo.pdf: Expediente/227290672⬜🏦🔨⬜ Panel o cartel informativo.md 
+    - 📐⬜⬜ Memoria Técnica de Diseño.pdf: Expediente/230290672🟥📐⬜⬜ Memoria Técnica de Diseño.md 
+    - 📐⬜⬜ Memoria.pdf: Expediente/240290672🟥📐⬜⬜ Memoria.md 
+    - 📐🗺⬜ Planos.pdf: Expediente/260290672🟥📐🗺⬜ Planos.md 
+    - 📐⬜⬜ Mediciones y presupuesto.pdf: Expediente/270290672🟥📐⬜⬜ Mediciones y presupuesto.md 
+    - 📐⬜⬜ Certificado de instalación eléctrica.pdf: Expediente/290290672🟥📐⬜⬜ Certificado de instalación eléctrica.md
+            
