@@ -16,8 +16,8 @@ hide:
   <input type="hidden" name="_template" value="table">
   <input type="hidden" name="_autoresponse" value="Muchas gracias, en breve le contactaremos.">
   <input class="form-control" type="hidden" name="_captcha" value="false">
-  <input type="hidden" name="_next" value="https://tejado.solar">
-  <input type="hidden" name="_subject" value="TEJADO_SOLAR">
+  <input type="hidden" name="_next" value="https://proyecto.solar">
+  <input type="hidden" name="_subject" value="PROYECTO_SOLAR">
   <input type="hidden" name="_autoresponse" value="Gracias, en breve le contactaremos.">
   <input type="hidden" name='lat' class="form-control" id="lat">
   <input type="hidden" name='lng' class="form-control" id="lng">
@@ -73,13 +73,13 @@ hide:
 
 ??? warning "Politica de Privacidad "
 
-    En Proyecto Solar cumplimos con el RGPD (Reglamento General de Protección de Datos):
+    En Proyecto Solar cumplimos con el RGPD (Reglamento General de Protección de Datos):
 
-    - Responsable: Proyecto Solar SL.
-    - Finalidad: responder a tu mensaje enviado desde este formulario de contacto.
-    - Legitimación: tu consentimiento.
-    - Destinatarios: tus datos se guardarán en nuestro proveedor de email que también cumple con el RGPD.
-    - Derechos: tienes derecho a acceder, rectificar, limitar y suprimir tus datos en cualquier momento.
+    - Responsable: Proyecto Solar SL.
+    - Finalidad: responder a tu mensaje enviado desde este formulario de contacto.
+    - Legitimación: tu consentimiento.
+    - Destinatarios: tus datos se guardarán en nuestro proveedor de email que también cumple con el RGPD.
+    - Derechos: tienes derecho a acceder, rectificar, limitar y suprimir tus datos en cualquier momento.
 
 <script data-require="leaflet@0.7.3" data-semver="0.7.3"
     src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js">
@@ -111,3 +111,7 @@ map.on('click', function (e) {
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous">   
 </script>
+        
+        
+        
+        
