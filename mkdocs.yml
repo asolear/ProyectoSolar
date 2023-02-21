@@ -1,5 +1,6 @@
 # 
 site_name: 01_▫️📚_Proyecto.solar
+docs_dir: 'docs_jpg'
 theme:
   name: material
   palette:
@@ -24,6 +25,8 @@ markdown_extensions:
 
 nav:
 
+    - 📚 Expediente: 
+        - ⬜ Indice: Expediente/002_📚 Expediente_⬜ Indice.md 
     - 🧑 Cliente: 
         - 🧑⬜ Oferta: Expediente/110_🧑 Cliente_🧑⬜ Oferta.md 
         - 🧑⬜ formularioUnico: Expediente/110_🧑 Cliente_🧑⬜ formularioUnico.md 
@@ -40,6 +43,8 @@ nav:
         - 📐⬜ Memoria Técnica de Diseño: Expediente/230_📐 Proyecto_📐⬜ Memoria Técnica de Diseño.md 
         - 📐⬜ Memoria: Expediente/240_📐 Proyecto_📐⬜ Memoria.md 
         - 📐⬜ Planos: Expediente/260_📐 Proyecto_📐⬜ Planos.md 
+        - 📐🗺 P Situación - Emplazamiento: Expediente/261_📐 Proyecto_📐🗺 P Situación - Emplazamiento.md 
+        - 📐🗺 P Plantas - Alzados.: Expediente/262_📐 Proyecto_📐🗺 P Plantas - Alzados..md 
         - 📐⬜ Mediciones y presupuesto: Expediente/270_📐 Proyecto_📐⬜ Mediciones y presupuesto.md 
         - 📐⬜ Certificado de instalación eléctrica: Expediente/290_📐 Proyecto_📐⬜ Certificado de instalación eléctrica.md 
     - 🇪🇺 NextGenerationEU: 
