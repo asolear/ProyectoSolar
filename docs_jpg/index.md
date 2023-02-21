@@ -44,8 +44,6 @@
 </style>
 <a target="_blank" href="https://api.whatsapp.com/send?phone=600366211&text=Informacion sobre Black Roof Style" class="whatsapp-button"><i class="fab fa-whatsapp"></i></a>
 
-## 📚 Expediente: 
-- [⬜ Indice.](Expediente/002_📚 Expediente_⬜ Indice.md) 
 ## 🧑 Cliente: 
 - [🧑⬜ Oferta.](Expediente/110_🧑 Cliente_🧑⬜ Oferta.md) 
 - [🧑⬜ formularioUnico.](Expediente/110_🧑 Cliente_🧑⬜ formularioUnico.md) 
@@ -61,6 +59,7 @@
 ## 📐 Proyecto: 
 - [📐⬜ Memoria Técnica de Diseño.](Expediente/230_📐 Proyecto_📐⬜ Memoria Técnica de Diseño.md) 
 - [📐⬜ Memoria.](Expediente/240_📐 Proyecto_📐⬜ Memoria.md) 
+- [📐✏️ Memoria Diagrama Electrico .](Expediente/251_📐 Proyecto_📐✏️ Memoria Diagrama Electrico .md) 
 - [📐⬜ Planos.](Expediente/260_📐 Proyecto_📐⬜ Planos.md) 
 - [📐🗺 P Situación - Emplazamiento.](Expediente/261_📐 Proyecto_📐🗺 P Situación - Emplazamiento.md) 
 - [📐🗺 P Plantas - Alzados..](Expediente/262_📐 Proyecto_📐🗺 P Plantas - Alzados..md) 
