@@ -20,11 +20,17 @@ markdown_extensions:
   - attr_list
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   
 
 nav:
 
+    - 👷 Tecnico: 
+        - ⬜ formularioUnico: Expediente/109_👷 Tecnico_⬜ formularioUnico.md 
     - 🧑 Cliente: 
         - 🧑⬜ Oferta: Expediente/110_🧑 Cliente_🧑⬜ Oferta.md 
         - 🧑⬜ formularioUnico: Expediente/110_🧑 Cliente_🧑⬜ formularioUnico.md 
@@ -40,10 +46,7 @@ nav:
     - 📐 Proyecto: 
         - 📐⬜ Memoria Técnica de Diseño: Expediente/230_📐 Proyecto_📐⬜ Memoria Técnica de Diseño.md 
         - 📐⬜ Memoria: Expediente/240_📐 Proyecto_📐⬜ Memoria.md 
-        - 📐✏️ Memoria Diagrama Electrico : Expediente/251_📐 Proyecto_📐✏️ Memoria Diagrama Electrico .md 
         - 📐⬜ Planos: Expediente/260_📐 Proyecto_📐⬜ Planos.md 
-        - 📐🗺 P Situación - Emplazamiento: Expediente/261_📐 Proyecto_📐🗺 P Situación - Emplazamiento.md 
-        - 📐🗺 P Plantas - Alzados.: Expediente/262_📐 Proyecto_📐🗺 P Plantas - Alzados..md 
         - 📐⬜ Mediciones y presupuesto: Expediente/270_📐 Proyecto_📐⬜ Mediciones y presupuesto.md 
         - 📐⬜ Certificado de instalación eléctrica: Expediente/290_📐 Proyecto_📐⬜ Certificado de instalación eléctrica.md 
     - 🇪🇺 NextGenerationEU: 
@@ -53,9 +56,9 @@ nav:
         - 🇪🇺⬜ DATOS TÉCNICOS Y ECONÓMICOS REQUERIDOS PARA CADA PROGRAMA DE INCENTIVOS: Expediente/320_🇪🇺 NextGenerationEU_🇪🇺⬜ DATOS TÉCNICOS Y ECONÓMICOS REQUERIDOS PARA CADA PROGRAMA DE INCENTIVOS.md 
         - 🇪🇺⬜autoconsumo declaracion sistema almacenamiento: Expediente/320_🇪🇺 NextGenerationEU_🇪🇺⬜autoconsumo declaracion sistema almacenamiento.md 
         - 🇪🇺⬜autoconsumo solicitud declaracion responsable 80: Expediente/320_🇪🇺 NextGenerationEU_🇪🇺⬜autoconsumo solicitud declaracion responsable 80.md 
-    - 🧪 Pruebas: 
-        - 🧪⬜ Admissions Application: Expediente/999_🧪 Pruebas_🧪⬜ Admissions Application.md 
-        - 🧪⬜ DECLARACION PROVEEDOR ALMACENAMIENTO Autoconsumo y termicas: Expediente/999_🧪 Pruebas_🧪⬜ DECLARACION PROVEEDOR ALMACENAMIENTO Autoconsumo y termicas.md 
-        - 🧪⬜ Estudio Básico de Seguridad y Salud, telegramv1: Expediente/999_🧪 Pruebas_🧪⬜ Estudio Básico de Seguridad y Salud, telegramv1.md 
-        - 🧪⬜NO  AFECCION  A OBJETIVOS MEDIOAMBIENTALES: Expediente/999_🧪 Pruebas_🧪⬜NO  AFECCION  A OBJETIVOS MEDIOAMBIENTALES.md
+    - 🧪 Blog: 
+        - 🧪⬜ Admissions Application: Expediente/999_🧪 Blog_🧪⬜ Admissions Application.md 
+        - 🧪⬜ DECLARACION PROVEEDOR ALMACENAMIENTO Autoconsumo y termicas: Expediente/999_🧪 Blog_🧪⬜ DECLARACION PROVEEDOR ALMACENAMIENTO Autoconsumo y termicas.md 
+        - 🧪⬜ Estudio Básico de Seguridad y Salud, telegramv1: Expediente/999_🧪 Blog_🧪⬜ Estudio Básico de Seguridad y Salud, telegramv1.md 
+        - 🧪⬜NO  AFECCION  A OBJETIVOS MEDIOAMBIENTALES: Expediente/999_🧪 Blog_🧪⬜NO  AFECCION  A OBJETIVOS MEDIOAMBIENTALES.md
             
