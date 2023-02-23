@@ -251,20 +251,6 @@
 
             
           
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="Expediente/120_%F0%9F%A7%91%20Cliente_%F0%9F%A7%91%E2%AC%9C%20SolicitudRegistrada/" class="md-nav__link">
-        🧑⬜ SolicitudRegistrada
-      </a>
-    </li>
-  
-
-            
-          
         </ul>
       </nav>
     </li>
@@ -717,7 +703,107 @@
 
 
 <h1 id="_1"></h1>
-<p><a class="md-button" href="Contacto">🏬 Su instalacion FV</a></p>
+<details class="info" open="open">
+<summary>PS reduce los Plazos</summary>
+<pre class="mermaid"><code>gantt
+    title       ☀️ Instalacion FV con  PS
+    excludes    weekends
+    %% (`excludes` accepts specific dates in YYYY-MM-DD format, days of the week ("sunday") or "weekends", but not the word "weekdays".)
+    title       ☀️ Instalacion FV  sin / con  PS
+    section ❌ Sin PS
+    Oferta                  :crit,    Oferta, 2023-02-10, 1w
+    Contratacion          : milestone,1d
+    T. Permisos :crit,2w
+    Instalacion: 4w
+    section ✔️ Con PS
+    Oferta  :crit,milestone,    des1, 2023-02-10, 0d
+    Contratacion         :milestone,1d
+    T. Permisos :crit,milestone,0d
+    Instalacion: 4w
+</code></pre>
+</details>
+<details class="success">
+<summary>Flujo de DOCUMENTOS</summary>
+<pre class="mermaid"><code>sequenceDiagram
+autonumber
+
+        Instalador-&gt;&gt;🧑 Cliente:🧑⬜ Oferta.  
+        Instalador-&gt;&gt;🧑 Cliente:🧑⬜ formularioUnico.  
+        Instalador-&gt;&gt;🧑 Cliente:🧑⬜ Contrato.  
+        Instalador-&gt;&gt;🏦 Ayuntamiento:🏦⬜ Representación ante la GMU.  
+        Instalador-&gt;&gt;🏦 Ayuntamiento:🏦⬜ DECLARACIÓN RESPONSABLE PARA EJECUCIÓN DE OBRAS.  
+        Instalador-&gt;&gt;🏦 Ayuntamiento:🏦⬜ Declaración Responsable de Obras.  
+        Instalador-&gt;&gt;🏦 Ayuntamiento:🏦⬜ Certificado técnico de colegiación y habilitación.  
+        Instalador-&gt;&gt;🏦 Ayuntamiento:🏦⬜ Formulario normalizado Licencias de Obras.  
+        Instalador-&gt;&gt;🏦 Ayuntamiento:🏦⬜ Panel o cartel informativo.  
+        Instalador-&gt;&gt;📐 Proyecto:📐⬜ Memoria Técnica de Diseño.  
+        Instalador-&gt;&gt;📐 Proyecto:📐⬜ Memoria.  
+        Instalador-&gt;&gt;📐 Proyecto:📐⬜ Planos.  
+        Instalador-&gt;&gt;📐 Proyecto:📐⬜ Mediciones y presupuesto.  
+        Instalador-&gt;&gt;📐 Proyecto:📐⬜ Certificado de instalación eléctrica.  
+        Instalador-&gt;&gt;🇪🇺 NextGenerationEU:🇪🇺⬜  DECLARACIÓN RESPONSABLE relativa a la estimación del consumoxx.  
+        Instalador-&gt;&gt;🇪🇺 NextGenerationEU:🇪🇺⬜  INFORME JUSTIFICATIVO de la previsión del consumo anual.  
+        Instalador-&gt;&gt;🇪🇺 NextGenerationEU:🇪🇺⬜  OTORGAMIENTO DE LA REPRESENTACIÓN A LA EMPRESA ADHERIDA .  
+        Instalador-&gt;&gt;🇪🇺 NextGenerationEU:🇪🇺⬜ DATOS TÉCNICOS Y ECONÓMICOS REQUERIDOS PARA CADA PROGRAMA DE INCENTIVOS.  
+        Instalador-&gt;&gt;🇪🇺 NextGenerationEU:🇪🇺⬜autoconsumo declaracion sistema almacenamiento.  
+        Instalador-&gt;&gt;🇪🇺 NextGenerationEU:🇪🇺⬜autoconsumo solicitud declaracion responsable 80.  
+        Instalador-&gt;&gt;🧪 Blog:🧪⬜ Admissions Application.  
+        Instalador-&gt;&gt;🧪 Blog:🧪⬜ DECLARACION PROVEEDOR ALMACENAMIENTO Autoconsumo y termicas.  
+        Instalador-&gt;&gt;🧪 Blog:🧪⬜ Estudio Básico de Seguridad y Salud, telegramv1.  
+        Instalador-&gt;&gt;🧪 Blog:🧪⬜NO  AFECCION  A OBJETIVOS MEDIOAMBIENTALES.</code></pre>
+</details>
+<details class="info">
+<summary>DOCUMENTOS</summary>
+<details class="abstract" open="open">
+<summary>🧑 Cliente</summary>
+<ul>
+<li>1 <a href="Expediente/110_%F0%9F%A7%91%20Cliente_%F0%9F%A7%91%E2%AC%9C%20Oferta/">🧑⬜ Oferta.</a>  </li>
+<li>2 <a href="Expediente/110_%F0%9F%A7%91%20Cliente_%F0%9F%A7%91%E2%AC%9C%20formularioUnico/">🧑⬜ formularioUnico.</a>  </li>
+<li>3 <a href="Expediente/120_%F0%9F%A7%91%20Cliente_%F0%9F%A7%91%E2%AC%9C%20Contrato/">🧑⬜ Contrato.</a></li>
+</ul>
+</details>
+<details class="abstract" open="open">
+<summary>🏦 Ayuntamiento</summary>
+<ul>
+<li>4 <a href="Expediente/220_%F0%9F%8F%A6%20Ayuntamiento_%F0%9F%8F%A6%E2%AC%9C%20Representaci%C3%B3n%20ante%20la%20GMU/">🏦⬜ Representación ante la GMU.</a>  </li>
+<li>5 <a href="Expediente/221_%F0%9F%8F%A6%20Ayuntamiento_%F0%9F%8F%A6%E2%AC%9C%20DECLARACI%C3%93N%20RESPONSABLE%20PARA%20EJECUCI%C3%93N%20DE%20OBRAS/">🏦⬜ DECLARACIÓN RESPONSABLE PARA EJECUCIÓN DE OBRAS.</a>  </li>
+<li>6 <a href="Expediente/221_%F0%9F%8F%A6%20Ayuntamiento_%F0%9F%8F%A6%E2%AC%9C%20Declaraci%C3%B3n%20Responsable%20de%20Obras/">🏦⬜ Declaración Responsable de Obras.</a>  </li>
+<li>7 <a href="Expediente/222_%F0%9F%8F%A6%20Ayuntamiento_%F0%9F%8F%A6%E2%AC%9C%20Certificado%20t%C3%A9cnico%20de%20colegiaci%C3%B3n%20y%20habilitaci%C3%B3n/">🏦⬜ Certificado técnico de colegiación y habilitación.</a>  </li>
+<li>8 <a href="Expediente/225_%F0%9F%8F%A6%20Ayuntamiento_%F0%9F%8F%A6%E2%AC%9C%20Formulario%20normalizado%20Licencias%20de%20Obras/">🏦⬜ Formulario normalizado Licencias de Obras.</a>  </li>
+<li>9 <a href="Expediente/227_%F0%9F%8F%A6%20Ayuntamiento_%F0%9F%8F%A6%E2%AC%9C%20Panel%20o%20cartel%20informativo/">🏦⬜ Panel o cartel informativo.</a></li>
+</ul>
+</details>
+<details class="abstract" open="open">
+<summary>📐 Proyecto</summary>
+<ul>
+<li>10 <a href="Expediente/230_%F0%9F%93%90%20Proyecto_%F0%9F%93%90%E2%AC%9C%20Memoria%20T%C3%A9cnica%20de%20Dise%C3%B1o/">📐⬜ Memoria Técnica de Diseño.</a>  </li>
+<li>11 <a href="Expediente/240_%F0%9F%93%90%20Proyecto_%F0%9F%93%90%E2%AC%9C%20Memoria/">📐⬜ Memoria.</a>  </li>
+<li>12 <a href="Expediente/260_%F0%9F%93%90%20Proyecto_%F0%9F%93%90%E2%AC%9C%20Planos/">📐⬜ Planos.</a>  </li>
+<li>13 <a href="Expediente/270_%F0%9F%93%90%20Proyecto_%F0%9F%93%90%E2%AC%9C%20Mediciones%20y%20presupuesto/">📐⬜ Mediciones y presupuesto.</a>  </li>
+<li>14 <a href="Expediente/290_%F0%9F%93%90%20Proyecto_%F0%9F%93%90%E2%AC%9C%20Certificado%20de%20instalaci%C3%B3n%20el%C3%A9ctrica/">📐⬜ Certificado de instalación eléctrica.</a></li>
+</ul>
+</details>
+<details class="abstract" open="open">
+<summary>🇪🇺 NextGenerationEU</summary>
+<ul>
+<li>15 <a href="Expediente/320_%F0%9F%87%AA%F0%9F%87%BA%20NextGenerationEU_%F0%9F%87%AA%F0%9F%87%BA%E2%AC%9C%20%20DECLARACI%C3%93N%20RESPONSABLE%20relativa%20a%20la%20estimaci%C3%B3n%20del%20consumoxx/">🇪🇺⬜  DECLARACIÓN RESPONSABLE relativa a la estimación del consumoxx.</a>  </li>
+<li>16 <a href="Expediente/320_%F0%9F%87%AA%F0%9F%87%BA%20NextGenerationEU_%F0%9F%87%AA%F0%9F%87%BA%E2%AC%9C%20%20INFORME%20JUSTIFICATIVO%20de%20la%20previsi%C3%B3n%20del%20consumo%20anual/">🇪🇺⬜  INFORME JUSTIFICATIVO de la previsión del consumo anual.</a>  </li>
+<li>17 <a href="Expediente/320_%F0%9F%87%AA%F0%9F%87%BA%20NextGenerationEU_%F0%9F%87%AA%F0%9F%87%BA%E2%AC%9C%20%20OTORGAMIENTO%20DE%20LA%20REPRESENTACI%C3%93N%20A%20LA%20EMPRESA%20ADHERIDA%20/">🇪🇺⬜  OTORGAMIENTO DE LA REPRESENTACIÓN A LA EMPRESA ADHERIDA .</a>  </li>
+<li>18 <a href="Expediente/320_%F0%9F%87%AA%F0%9F%87%BA%20NextGenerationEU_%F0%9F%87%AA%F0%9F%87%BA%E2%AC%9C%20DATOS%20T%C3%89CNICOS%20Y%20ECON%C3%93MICOS%20REQUERIDOS%20PARA%20CADA%20PROGRAMA%20DE%20INCENTIVOS/">🇪🇺⬜ DATOS TÉCNICOS Y ECONÓMICOS REQUERIDOS PARA CADA PROGRAMA DE INCENTIVOS.</a>  </li>
+<li>19 <a href="Expediente/320_%F0%9F%87%AA%F0%9F%87%BA%20NextGenerationEU_%F0%9F%87%AA%F0%9F%87%BA%E2%AC%9Cautoconsumo%20declaracion%20sistema%20almacenamiento/">🇪🇺⬜autoconsumo declaracion sistema almacenamiento.</a>  </li>
+<li>20 <a href="Expediente/320_%F0%9F%87%AA%F0%9F%87%BA%20NextGenerationEU_%F0%9F%87%AA%F0%9F%87%BA%E2%AC%9Cautoconsumo%20solicitud%20declaracion%20responsable%2080/">🇪🇺⬜autoconsumo solicitud declaracion responsable 80.</a></li>
+</ul>
+</details>
+<details class="abstract" open="open">
+<summary>🧪 Blog</summary>
+<ul>
+<li>21 <a href="Expediente/999_%F0%9F%A7%AA%20Blog_%F0%9F%A7%AA%E2%AC%9C%20Admissions%20Application/">🧪⬜ Admissions Application.</a>  </li>
+<li>22 <a href="Expediente/999_%F0%9F%A7%AA%20Blog_%F0%9F%A7%AA%E2%AC%9C%20DECLARACION%20PROVEEDOR%20ALMACENAMIENTO%20Autoconsumo%20y%20termicas/">🧪⬜ DECLARACION PROVEEDOR ALMACENAMIENTO Autoconsumo y termicas.</a>  </li>
+<li>23 <a href="Expediente/999_%F0%9F%A7%AA%20Blog_%F0%9F%A7%AA%E2%AC%9C%20Estudio%20B%C3%A1sico%20de%20Seguridad%20y%20Salud%2C%20telegramv1/">🧪⬜ Estudio Básico de Seguridad y Salud, telegramv1.</a>  </li>
+<li>24 <a href="Expediente/999_%F0%9F%A7%AA%20Blog_%F0%9F%A7%AA%E2%AC%9CNO%20%20AFECCION%20%20A%20OBJETIVOS%20MEDIOAMBIENTALES/">🧪⬜NO  AFECCION  A OBJETIVOS MEDIOAMBIENTALES.</a></li>
+</ul>
+</details>
+</details>
 <script src="https://kit.fontawesome.com/1cf483120b.js" crossorigin="anonymous"></script>
 <style>
 .whatsapp-button {
@@ -762,89 +848,6 @@
 }
 </style>
 <p><a target="_blank" href="https://api.whatsapp.com/send?phone=600366211&text=Informacion sobre Black Roof Style" class="whatsapp-button"><i class="fab fa-whatsapp"></i></a></p>
-<details class="info" open="open">
-<summary>PS prepara y gestiona toda la documentacion para que empiece a instalar mañana. </summary>
-<pre class="mermaid"><code>gantt
-    title       ☀️ Instalacion FV con  PS
-    excludes    weekends
-    %% (`excludes` accepts specific dates in YYYY-MM-DD format, days of the week ("sunday") or "weekends", but not the word "weekdays".)
-    title       ☀️ Instalacion FV  sin / con  PS
-    section ❌ Sin PS
-    Oferta                  :crit,    Oferta, 2023-02-09, 1w
-    Contratacion          : milestone,1d
-    T. Permisos :crit,2w
-    Instalacion: 4w
-
-    section ✔️ Con PS
-    Oferta  :crit,milestone,    des1, 2023-02-09, 0d
-    Contratacion         :milestone,1d
-    T. Permisos :crit,milestone,0d
-    Instalacion: 4w
-</code></pre>
-</details>
-<details class="success" open="open">
-<summary>DOCUMENTACION de ejemplo</summary>
-<pre class="mermaid"><code>sequenceDiagram
-
-autonumber
-Instalador-&gt;&gt;Cliente: Oferta
-Cliente-&gt;&gt;Instalador:  Contrato
-Instalador--&gt;&gt;Ayuntamiento: Declaracion Responsable De Obras
-Instalador-&gt;&gt;Industria: Solicitud Incentivos
-Instalador--&gt;&gt;Industria: Legalizacion
-Instalador--&gt;&gt;Cliente:  Certificado de la instalacion 
-</code></pre>
-<details class="abstract">
-<summary>🧑 Cliente</summary>
-<ul>
-<li><a href="Expediente/110_%F0%9F%A7%91%20Cliente_%F0%9F%A7%91%E2%AC%9C%20Oferta/">🧑⬜ Oferta.</a>  </li>
-<li><a href="Expediente/110_%F0%9F%A7%91%20Cliente_%F0%9F%A7%91%E2%AC%9C%20formularioUnico/">🧑⬜ formularioUnico.</a>  </li>
-<li><a href="Expediente/120_%F0%9F%A7%91%20Cliente_%F0%9F%A7%91%E2%AC%9C%20Contrato/">🧑⬜ Contrato.</a>  </li>
-<li><a href="Expediente/120_%F0%9F%A7%91%20Cliente_%F0%9F%A7%91%E2%AC%9C%20SolicitudRegistrada/">🧑⬜ SolicitudRegistrada.</a></li>
-</ul>
-</details>
-<details class="abstract">
-<summary>🏦 Ayuntamiento</summary>
-<ul>
-<li><a href="Expediente/220_%F0%9F%8F%A6%20Ayuntamiento_%F0%9F%8F%A6%E2%AC%9C%20Representaci%C3%B3n%20ante%20la%20GMU/">🏦⬜ Representación ante la GMU.</a>  </li>
-<li><a href="Expediente/221_%F0%9F%8F%A6%20Ayuntamiento_%F0%9F%8F%A6%E2%AC%9C%20DECLARACI%C3%93N%20RESPONSABLE%20PARA%20EJECUCI%C3%93N%20DE%20OBRAS/">🏦⬜ DECLARACIÓN RESPONSABLE PARA EJECUCIÓN DE OBRAS.</a>  </li>
-<li><a href="Expediente/221_%F0%9F%8F%A6%20Ayuntamiento_%F0%9F%8F%A6%E2%AC%9C%20Declaraci%C3%B3n%20Responsable%20de%20Obras/">🏦⬜ Declaración Responsable de Obras.</a>  </li>
-<li><a href="Expediente/222_%F0%9F%8F%A6%20Ayuntamiento_%F0%9F%8F%A6%E2%AC%9C%20Certificado%20t%C3%A9cnico%20de%20colegiaci%C3%B3n%20y%20habilitaci%C3%B3n/">🏦⬜ Certificado técnico de colegiación y habilitación.</a>  </li>
-<li><a href="Expediente/225_%F0%9F%8F%A6%20Ayuntamiento_%F0%9F%8F%A6%E2%AC%9C%20Formulario%20normalizado%20Licencias%20de%20Obras/">🏦⬜ Formulario normalizado Licencias de Obras.</a>  </li>
-<li><a href="Expediente/227_%F0%9F%8F%A6%20Ayuntamiento_%F0%9F%8F%A6%E2%AC%9C%20Panel%20o%20cartel%20informativo/">🏦⬜ Panel o cartel informativo.</a></li>
-</ul>
-</details>
-<details class="abstract">
-<summary>📐 Proyecto</summary>
-<ul>
-<li><a href="Expediente/230_%F0%9F%93%90%20Proyecto_%F0%9F%93%90%E2%AC%9C%20Memoria%20T%C3%A9cnica%20de%20Dise%C3%B1o/">📐⬜ Memoria Técnica de Diseño.</a>  </li>
-<li><a href="Expediente/240_%F0%9F%93%90%20Proyecto_%F0%9F%93%90%E2%AC%9C%20Memoria/">📐⬜ Memoria.</a>  </li>
-<li><a href="Expediente/260_%F0%9F%93%90%20Proyecto_%F0%9F%93%90%E2%AC%9C%20Planos/">📐⬜ Planos.</a>  </li>
-<li><a href="Expediente/270_%F0%9F%93%90%20Proyecto_%F0%9F%93%90%E2%AC%9C%20Mediciones%20y%20presupuesto/">📐⬜ Mediciones y presupuesto.</a>  </li>
-<li><a href="Expediente/290_%F0%9F%93%90%20Proyecto_%F0%9F%93%90%E2%AC%9C%20Certificado%20de%20instalaci%C3%B3n%20el%C3%A9ctrica/">📐⬜ Certificado de instalación eléctrica.</a></li>
-</ul>
-</details>
-<details class="abstract">
-<summary>🇪🇺 NextGenerationEU</summary>
-<ul>
-<li><a href="Expediente/320_%F0%9F%87%AA%F0%9F%87%BA%20NextGenerationEU_%F0%9F%87%AA%F0%9F%87%BA%E2%AC%9C%20%20DECLARACI%C3%93N%20RESPONSABLE%20relativa%20a%20la%20estimaci%C3%B3n%20del%20consumoxx/">🇪🇺⬜  DECLARACIÓN RESPONSABLE relativa a la estimación del consumoxx.</a>  </li>
-<li><a href="Expediente/320_%F0%9F%87%AA%F0%9F%87%BA%20NextGenerationEU_%F0%9F%87%AA%F0%9F%87%BA%E2%AC%9C%20%20INFORME%20JUSTIFICATIVO%20de%20la%20previsi%C3%B3n%20del%20consumo%20anual/">🇪🇺⬜  INFORME JUSTIFICATIVO de la previsión del consumo anual.</a>  </li>
-<li><a href="Expediente/320_%F0%9F%87%AA%F0%9F%87%BA%20NextGenerationEU_%F0%9F%87%AA%F0%9F%87%BA%E2%AC%9C%20%20OTORGAMIENTO%20DE%20LA%20REPRESENTACI%C3%93N%20A%20LA%20EMPRESA%20ADHERIDA%20/">🇪🇺⬜  OTORGAMIENTO DE LA REPRESENTACIÓN A LA EMPRESA ADHERIDA .</a>  </li>
-<li><a href="Expediente/320_%F0%9F%87%AA%F0%9F%87%BA%20NextGenerationEU_%F0%9F%87%AA%F0%9F%87%BA%E2%AC%9C%20DATOS%20T%C3%89CNICOS%20Y%20ECON%C3%93MICOS%20REQUERIDOS%20PARA%20CADA%20PROGRAMA%20DE%20INCENTIVOS/">🇪🇺⬜ DATOS TÉCNICOS Y ECONÓMICOS REQUERIDOS PARA CADA PROGRAMA DE INCENTIVOS.</a>  </li>
-<li><a href="Expediente/320_%F0%9F%87%AA%F0%9F%87%BA%20NextGenerationEU_%F0%9F%87%AA%F0%9F%87%BA%E2%AC%9Cautoconsumo%20declaracion%20sistema%20almacenamiento/">🇪🇺⬜autoconsumo declaracion sistema almacenamiento.</a>  </li>
-<li><a href="Expediente/320_%F0%9F%87%AA%F0%9F%87%BA%20NextGenerationEU_%F0%9F%87%AA%F0%9F%87%BA%E2%AC%9Cautoconsumo%20solicitud%20declaracion%20responsable%2080/">🇪🇺⬜autoconsumo solicitud declaracion responsable 80.</a></li>
-</ul>
-</details>
-<details class="abstract">
-<summary>🧪 Blog</summary>
-<ul>
-<li><a href="Expediente/999_%F0%9F%A7%AA%20Blog_%F0%9F%A7%AA%E2%AC%9C%20Admissions%20Application/">🧪⬜ Admissions Application.</a>  </li>
-<li><a href="Expediente/999_%F0%9F%A7%AA%20Blog_%F0%9F%A7%AA%E2%AC%9C%20DECLARACION%20PROVEEDOR%20ALMACENAMIENTO%20Autoconsumo%20y%20termicas/">🧪⬜ DECLARACION PROVEEDOR ALMACENAMIENTO Autoconsumo y termicas.</a>  </li>
-<li><a href="Expediente/999_%F0%9F%A7%AA%20Blog_%F0%9F%A7%AA%E2%AC%9C%20Estudio%20B%C3%A1sico%20de%20Seguridad%20y%20Salud%2C%20telegramv1/">🧪⬜ Estudio Básico de Seguridad y Salud, telegramv1.</a>  </li>
-<li><a href="Expediente/999_%F0%9F%A7%AA%20Blog_%F0%9F%A7%AA%E2%AC%9CNO%20%20AFECCION%20%20A%20OBJETIVOS%20MEDIOAMBIENTALES/">🧪⬜NO  AFECCION  A OBJETIVOS MEDIOAMBIENTALES.</a></li>
-</ul>
-</details>
-</details>
 
 
 
