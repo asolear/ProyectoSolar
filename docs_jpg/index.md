@@ -1,10 +1,11 @@
-# [🏬 Empiece mañana su instalacion FV](Contacto){ .md-button }
+#
+[🏬 Su instalacion FV](Contacto){ .md-button }
 <script src="https://kit.fontawesome.com/1cf483120b.js" crossorigin="anonymous"></script>
 <style>
 .whatsapp-button {
   position: fixed;
-  top: 55px;
-  right: 111px;
+  top:333px;
+  right: 66px;
   z-index: 99;
   background-color: #25d366;
   border-radius: 50px;
@@ -52,13 +53,13 @@
         %% (`excludes` accepts specific dates in YYYY-MM-DD format, days of the week ("sunday") or "weekends", but not the word "weekdays".)
         title       ☀️ Instalacion FV  sin / con  PS
         section ❌ Sin PS
-        Oferta                  :crit,    Oferta, 2023-02-08, 1w
+        Oferta                  :crit,    Oferta, 2023-02-09, 1w
         Contratacion          : milestone,1d
         T. Permisos :crit,2w
         Instalacion: 4w
 
         section ✔️ Con PS
-        Oferta  :crit,milestone,    des1, 2023-02-08, 0d
+        Oferta  :crit,milestone,    des1, 2023-02-09, 0d
         Contratacion         :milestone,1d
         T. Permisos :crit,milestone,0d
         Instalacion: 4w
@@ -79,8 +80,6 @@
 
     ```
         
-    ??? Abstract "👷 Tecnico"  
-        - [⬜ formularioUnico.](Expediente/109_👷 Tecnico_⬜ formularioUnico.md)
     ??? Abstract "🧑 Cliente"  
         - [🧑⬜ Oferta.](Expediente/110_🧑 Cliente_🧑⬜ Oferta.md)  
         - [🧑⬜ formularioUnico.](Expediente/110_🧑 Cliente_🧑⬜ formularioUnico.md)  

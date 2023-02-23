@@ -29,8 +29,6 @@ markdown_extensions:
 
 nav:
 
-    - 👷 Tecnico: 
-        - ⬜ formularioUnico: Expediente/109_👷 Tecnico_⬜ formularioUnico.md 
     - 🧑 Cliente: 
         - 🧑⬜ Oferta: Expediente/110_🧑 Cliente_🧑⬜ Oferta.md 
         - 🧑⬜ formularioUnico: Expediente/110_🧑 Cliente_🧑⬜ formularioUnico.md 
