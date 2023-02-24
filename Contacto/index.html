@@ -788,17 +788,17 @@
     'attribution': 'Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
   });
   var map = new L.Map('map', {
-    'center': [36.664, -4.458],
-    'zoom': 8,
+    'center': [40.416642, -3.703798],
+    'zoom': 5,
     'layers': [tileLayer]
   });
 var marker = L.marker([36.664, -4.458]).addTo(map)
-        .bindPopup('INSTALACION FOTOVOLTAICA').openPopup();
+        .bindPopup('🔆 INSTALACION FV 🔆').openPopup();
 map.on('click', function (e) {
     if (marker) {
       map.removeLayer(marker);
     }
-    marker = new L.Marker(e.latlng).addTo(map).bindPopup('INSTALACION FOTOVOLTAICA').openPopup();
+    marker = new L.Marker(e.latlng).addTo(map).bindPopup('🔆 INSTALACION FV 🔆').openPopup();
     document.getElementById('lat').value = e.latlng.lat;
     document.getElementById('lng').value = e.latlng.lng;
   });
